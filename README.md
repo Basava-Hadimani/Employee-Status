@@ -9,3 +9,7 @@ Employees in an organisation can register to the company. Once they are register
 Once the employee loged in to account, he/she can update his daily task, status of the task and the hours spent on the project.
 
 all the details of the employee is stored in MySQL database.
+
+JAVA is used as coding language. Servlets are used for backend process.
+html, css, javascript, jQuery are used for front end process.
+
