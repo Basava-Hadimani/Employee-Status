@@ -1,0 +1,15 @@
+<h2>History</h2>
+<div >
+<p>Aricent is the successor to Hughes Software Systems, which was established in 1991, a subsidiary to Hughes Electronics.] and Sequoia Capital.</p>
+<p>1991: Established as Hughes Software Systems (HSS) by KV Ramani in Nehru Place, New Delhi developing software solutions in the areas of VSAT-based networks for voice and data, cellular wireless telephony, packet switching, and multi-protocol routing.Pioneering in the development of Protocol Stacks.It acquired Frog Design for approximately $25 million</p>
+<p>2004: Flextronics bought HSS to form Flextronics Software Systems and merged with Future Software Communications headquartered in Chennai</p>
+<p>2005: Expanded development operations in Kiev, Kherson and Vinnytsia in the Ukraine; Randburg, South Africa; and Beijing, China. Was delisted from India's stock market in preparation for sale</p>
+<p>2006: Was acquired by Kohlberg Kravis Roberts and Sequoia Capital as part of a $900 million sales of software companies.[4] The transaction represented the largest private equity buy-out in Indian history</p>
+<p>2007: Acquired Datalinx; launched service provider offerings</p>
+<p>2008: The Family Office, a multi-family office company with headquarters in Bahrain also joined in funding Aricent</p>
+<p>2011: Rebranded to Aricent Group </p>
+<p>2011: Opened engineering and development center for testing and wireless technologies in Vietnam</p>
+<p>2013: Rebranded to Aricent.</p>
+<p>2015: Acquired SmartPlay Technologies, a semiconductor service based firm for $180 million. As part of the deal, SmartPlay's 1,200-plus staff will join Aricent's staff</p>
+<p>2017: KKR group led Aricent been acquired by France's based Altran</p>
+<div>

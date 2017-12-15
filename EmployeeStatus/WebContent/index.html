@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+#test {
+    text-align: center;
+    color: red;
+    font-size: 100%;
+}
+test.hover{
+	color:blue;
+}
+
+#new{
+	color: blue;
+	font-size: 200%;
+}
+
+a{	
+	text-align:center;
+	a:hover{
+	color: hotpink;
+	} 
+}
+table,tr,td{
+	text-align:center;
+	border:5px outset orange;
+}
+#note{
+  margin: 50px 0 0 300px;
+  color: brown;
+}
+#hist{
+  margin: 50px 0 0 300px;
+  color: brown;
+}
+#history{
+  margin: 50px 0 0 300px;
+}
+#show{
+  margin: 50px 0 0 300px;
+}
+#hide{
+  margin: 50px 0 0 300px;
+}
+html { 
+    height: 100%;
+    margin:0px;
+    background: url(bg2.jpg) no-repeat fixed center;
+    background-size: cover;
+}
+#flip
+{ 
+    margin-bottom: 640px;
+    margin-left : 1000px;
+    width: 500px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    text-align:center;
+}
+#panel
+{
+    margin-bottom: 240px;
+    margin-left : 1000px;
+    width: 500px;
+    height: 400px;
+    background-color: orange;
+    color: white;
+    position: fixed;
+    bottom: 0;
+	display:none;
+}
+img {
+    display: block;
+    margin: auto;
+    width: 40%;
+}
+#login_pic{
+	width:200px;
+	height:200px;
+
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+
+button:hover {
+    opacity: 0.5;
+}
+
+</style>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js">  
+ </script>  
+ <script type="text/javascript" language="javascript">  
+ $(document).ready(function() {   
+ 
+ $("#login").hide();
+ $("#hist").hide();
+ $("#show").click(function(){
+	$("#login").toggle(2000);
+	$("#note").toggle(2000);
+	});
+ 
+ $("#flip").hover(function(){  
+     $("#panel").slideToggle(2000);  
+ });
+ 
+ $("#history").click(function(){
+	$("#hist").load("history.txt", function (content, status, xhr){
+		$("#hist").fadeToggle("slow");
+		
+	});
+	 
+ });
+ 
+});  
+ </script> 
+<meta charset="ISO-8859-1">
+<title>Welcome to Aricent</title>
+</head>
+<body>
+<img src="Aricent_logo.jpg">
+<div id="flip"><p>Contact</p></div>
+<div id="panel"><p><b>Services & General Information</b><br>info@aricent.com</p><br>
+							<p><b>Careers</b><br>careers@aricent.com</p><br>
+							<p><b>PRESS AND ANALYST</b><br>juhie.gorwara@aricent.com</p><br>
+							<p><b>INVESTOR RELATIONS</b><br>investor.relations@aricent.com</p><br>
+
+</div>
+<div id="note">
+<p>Aricent is a global design and engineering company innovating for customers in the digital era. We help our clients lead into the future by solving their most complex </p>   
+<p>and mission critical issues through customized solutions. For decades, we have helped companies do new things and scale with intention. We bring differentiated </p>  
+<p>value and capability in focused industries to help transform products, brands and companies.</p>
+</div>
+<button id="history">History</button>
+<div id="hist"></div>
+<br><br>
+<button id="show">LOGIN/HIDE</button>
+ <div id="login">
+ 
+ <img id="login_pic" src="images.png" >
+ <marquee><p style="color:red"; >ENTER YOUR DETAILS TO LOGIN:</p></marquee>
+
+<br/><br/>
+<form id="test" action="login" method="post"> 
+<table align="center" width="20%">
+	<tr><td>
+  User Name :</td><td><input id="uname" type="text" placeholder="Enter Username" name="uname" required/></td></tr>
+ <!-- <br><br>
+  User Name: <select name="uname" id="mySelect" onchange="myFunction()">
+  <option value="others">
+  <option value="Basavaraj">Basavaraj
+  <option value="Vishal">Vishal
+  <option value="Vikram">Vikram
+  <option value="Vijay">Vijay
+  <option value="Vinith">Vinith
+  </select><br><br> -->
+  
+  <tr><td>
+  EMP ID   :</td><td><input id="EmpId" placeholder="Enter Employee ID" type="number" name="uid" /></td></tr>
+  <tr><td>
+  Password : </td><td><input type="password" placeholder="Enter Password" name="upass" required="true" /></td></tr>
+  </table>
+  <button type="submit" value="submit">Login</button>
+</form> 
+
+<a  href="index1.html"><p style="color:brown";>NEW EMPLOYEE?</p></a>
+</div>
+<!--
+<script>
+function myFunction() {
+    var x = document.getElementById("mySelect").value;
+    switch(x){
+    	case "Basavaraj":
+    			document.getElementById("EmpId").value = 100; 
+    			break;
+    	case "Vishal":
+			document.getElementById("EmpId").value = 101; 
+			break;
+    	case "Vikram":
+			document.getElementById("EmpId").value = 102; 
+			break;
+    	case "Vijay":
+			document.getElementById("EmpId").value = 103; 
+			break;
+    	case "Vinith":
+			document.getElementById("EmpId").value = 104; 
+			break;
+   		default:
+   			document.getElementById("EmpId").value = 0; 
+   			break;
+    }
+    /*if (x == "Basavaraj")
+    	{
+    		
+    	}*/
+    
+
+    
+}
+
+
+</script>
+-->
+
+</body>
+</html>
